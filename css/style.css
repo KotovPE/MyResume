@@ -1,0 +1,23 @@
+
+body{
+    background-color: rgb(185, 185, 185);
+}
+.title{
+    text-transform: uppercase;
+}
+.main-info{
+    display: flex;
+}
+.main-info__avatar{
+    width: 200px;
+}
+
+.main-info__size{
+    width: 700px;
+}
+.align__img{
+    text-align: center;
+}
+.how__do{
+    
+}
