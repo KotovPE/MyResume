@@ -1,6 +1,6 @@
 
 body{
-    background-color: rgb(185, 185, 185);
+    background-color: rgb(228, 228, 228);
 }
 .title{
     text-transform: uppercase;
@@ -18,6 +18,6 @@ body{
 .align__img{
     text-align: center;
 }
-.how__do{
-    
+ul{
+    list-style: none;
 }
