@@ -6,64 +6,82 @@
     <title>Резюме на вакансию FrontEnd</title>
 </head>
 <body>
-    <div class="main-info" >
-        <img class="main-info__avatar" src="./img/avatar/I.jpg"/>
-        <h1 class="title">Петр</h1>
-        <ul></ul>
-    </div> 
-    <hr>
-    <div class="hp">
-        <h2 class="title">навыки</h2>
-        <p>Стажер FrontEnd разработка сайтов. Понимаю, что не все необходимые навыки имею, готов обучаться. Умею писать разметку на HTML и CSS. Так же писал некоторые проекты на языке программирования Java Script.</p>
-    </div>
-    <hr>
-    <div class="hp">
-        <h2 class="title">опыт работы</h2>
-        <table>
-            <tr>
-                <th>Название</th>
-                <th>Репозиторий</th>
-                <th>Чем занимался</th>
-            </tr>
-            <tr>
-                <td>Регистрация в ВК</td>
-                <td><a href="https://github.com/KotovPE/Vk-registration" target="_blank">Проект</a>|<a href="https://kotovpe.github.io/Vk-registration/" target="_blank">Сайт</a></td>
-                <td class="how__do">Сделал макет на html.</td>
-            </tr>
-            <tr>
-                <td>Резюме</td>
-                <td><a href="https://github.com/KotovPE/MyResume" target="_blank">Проект</a>|<a href="https://kotovpe.github.io/MyResume/" target="_blank">Сайт</a></td>
-                <td class="how__do">Сверстал себе резюме.</td>
-            </tr>
-            <tr>
-                <td>To do List</td>
-                <td><a href="https://github.com/KotovPE/To-do-List" target="_blank">Проект</a>|<a href="https://kotovpe.github.io/To-do-List/" target="_blank">Сайт</a></td>
-                <td class="how__do">Сделал сохранение заметок в LocalStorage; <br> Сделал регистрацию разных пользователей с созданием аккаунта для каждого. </td>
-            </tr>
-        </table>
-    </div>
-    <hr>
-    <div>
-        <h2 class="title">образование</h2>
-        <p>На протяжении С 2019 - 2022 обучался в ХИИК СибГУТИ(Хабаровский институт инфокомуникаций и связи).</p>
-        <p class="align__img"><img src="./img/education/Диплом 1.jpg" alt="Диплом лист 1" class="main-info__size"></p>
-        <p class="align__img"><img src="./img/education/Диплом 2.jpg" alt="Диплом лист 2" class="main-info__size"></p>
-        <p class="align__img"><img src="./img/education/Диплом 3.jpg" alt="Диплом лист 3" class="main-info__size"></p>
-        <p class="align__img"><img src="./img/education/Диплом 4.jpg" alt="Диплом лист 4" class="main-info__size"></p>  
-    </div>
-    <hr>
-    <div>
-        <h2 class="title">Вопросы с военкоматом</h2>
-        <p>Вопросы с военкоматом я решу. Все идет к получению военного билета.</p>
-        <p class="align__img"><img src="./img/millitary/agenda.jpg" alt="Повестка" class="main-info__size"></p>
-        <p class="align__img"><img src="./img/millitary/ascribed.jpg" alt="Преписное" class="main-info__size"></p>
-    </div>
-    <div>
-        <p>Контактные данные:</p>
-        <ul>
-            <li>Почта: <a href="mailto:petrkotovevgenevich@gmail.com">petrkotovevgenevich@gmail.com</a></li>
-            <li>Телефон: <a href="tel:+79242145361">+79242145361</a></li>
-        </ul>
-    </div>
+    <header class="header">
+        <nav class="header-menu__nav">
+            <ul class="header-menu__lists">
+                <li><a href="#main" class="header-menu__list">крадкая информация обо мне</a></li>
+                <li><a href="#skills" class="header-menu__list">навыки</a></li>
+                <li><a href="#experience-work" class="header-menu__list">опыт работы</a></li>
+                <li><a href="#education" class="header-menu__list">образование</a></li>
+                <li><a href="#military" class="header-menu__list">Вопросы с военкоматом</a></li>
+                <li><a href="#contacts" class="header-menu__list">Контактные данные</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr class="border-menu">
+    <main>
+        <div class="main-info" id="main">
+            <img class="main-info__avatar" src="./img/avatar/I.jpg"/>
+            <h1 class="title">Петр</h1>
+            <ul></ul>
+        </div> 
+        <hr>
+        <div class="skills" id="skills">
+            <h2 class="title">навыки</h2>
+            <p>Стажер FrontEnd разработка сайтов. Понимаю, что не все необходимые навыки имею, готов обучаться. Умею писать разметку на HTML и CSS. Так же писал некоторые проекты на языке программирования Java Script.</p>
+        </div>
+        <hr>
+        <div class="skills" id="experience-work">
+            <h2 class="title">опыт работы</h2>
+            <table>
+                <tr>
+                    <th>Название</th>
+                    <th>Репозиторий</th>
+                    <th>Чем занимался</th>
+                </tr>
+                <tr>
+                    <td>Регистрация в ВК</td>
+                    <td><a href="https://github.com/KotovPE/Vk-registration" target="_blank">Проект</a>|<a href="https://kotovpe.github.io/Vk-registration/" target="_blank">Сайт</a></td>
+                    <td class="how__do">Сделал макет на html.</td>
+                </tr>
+                <tr>
+                    <td>Резюме</td>
+                    <td><a href="https://github.com/KotovPE/MyResume" target="_blank">Проект</a>|<a href="https://kotovpe.github.io/MyResume/" target="_blank">Сайт</a></td>
+                    <td class="how__do">Сверстал себе резюме.</td>
+                </tr>
+                <tr>
+                    <td>To do List</td>
+                    <td><a href="https://github.com/KotovPE/To-do-List" target="_blank">Проект</a>|<a href="https://kotovpe.github.io/To-do-List/" target="_blank">Сайт</a></td>
+                    <td class="how__do">Сделал сохранение заметок в LocalStorage; <br> Сделал регистрацию разных пользователей с созданием аккаунта для каждого. </td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+        <div id="education">
+            <h2 class="title">образование</h2>
+            <p>На протяжении С 2019 - 2022 обучался в ХИИК СибГУТИ(Хабаровский институт инфокомуникаций и связи).</p>
+            <p class="align__img"><img src="./img/education/Диплом 1.jpg" alt="Диплом лист 1" class="main-info__size"></p>
+            <p class="align__img"><img src="./img/education/Диплом 2.jpg" alt="Диплом лист 2" class="main-info__size"></p>
+            <p class="align__img"><img src="./img/education/Диплом 3.jpg" alt="Диплом лист 3" class="main-info__size"></p>
+            <p class="align__img"><img src="./img/education/Диплом 4.jpg" alt="Диплом лист 4" class="main-info__size"></p>  
+        </div>
+        <hr>
+        <div id="military">
+            <h2 class="title">Вопросы с военкоматом</h2>
+            <p>Вопросы с военкоматом я решу. Все идет к получению военного билета.</p>
+            <p class="align__img"><img src="./img/millitary/agenda.jpg" alt="Повестка" class="main-info__size"></p>
+            <p class="align__img"><img src="./img/millitary/ascribed.jpg" alt="Преписное" class="main-info__size"></p>
+        </div>
+    </main>
+    <footer>
+        <div id="contacts">
+            <p>Контактные данные:</p>
+            <ul>
+                <li>Почта: <a href="mailto:petrkotovevgenevich@gmail.com">petrkotovevgenevich@gmail.com</a></li>
+                <li>Телефон: <a href="tel:+79242145361">+79242145361</a></li>
+            </ul>
+        </div>
+        
+    </footer>
 </body>
 </html>
