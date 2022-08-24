@@ -6,7 +6,7 @@
     <title>Резюме на вакансию FrontEnd</title>
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="up-header">
         <nav class="header-menu__nav">
             <ul class="header-menu__lists">
                 <li><a href="#main" class="header-menu__list">крадкая информация обо мне</a></li>
@@ -19,7 +19,7 @@
         </nav>
     </header>
     <hr class="border-menu">
-    <main>
+    <main class="main">
         <div class="main-info" id="main">
             <img class="main-info__avatar" src="./img/avatar/I.jpg"/>
             <h1 class="title">Петр</h1>
@@ -47,7 +47,7 @@
                 <tr>
                     <td>Резюме</td>
                     <td><a href="https://github.com/KotovPE/MyResume" target="_blank">Проект</a>|<a href="https://kotovpe.github.io/MyResume/" target="_blank">Сайт</a></td>
-                    <td class="how__do">Сверстал себе резюме.</td>
+                    <td class="how__do">Верстал себе резюме.</td>
                 </tr>
                 <tr>
                     <td>To do List</td>
@@ -73,15 +73,16 @@
             <p class="align__img"><img src="./img/millitary/ascribed.jpg" alt="Преписное" class="main-info__size"></p>
         </div>
     </main>
+    <hr>
     <footer>
         <div id="contacts">
-            <p>Контактные данные:</p>
+            <h2 class="title">Контактные данные:</h2>
             <ul>
                 <li>Почта: <a href="mailto:petrkotovevgenevich@gmail.com">petrkotovevgenevich@gmail.com</a></li>
                 <li>Телефон: <a href="tel:+79242145361">+79242145361</a></li>
             </ul>
         </div>
-        
+        <a href="#up-header" class="button-up">Вверх</a>
     </footer>
 </body>
 </html>

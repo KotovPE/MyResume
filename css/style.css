@@ -45,3 +45,9 @@ body{
 ul{
     list-style: none;
 }
+
+.button-up{
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+}
